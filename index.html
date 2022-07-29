@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio Hugo Groschaus</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#accueil" class="nav_btn">Accueil</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav_btn">A propos</a>
+                </li>
+                <li>
+                    <a href="#projets" class="nav_btn">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav_btn">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="page_content">
+            <section class="accueil elem"  id="accueil">
+                <header>
+                    <h1>Bonjour, je m'appelle Hugo Groschaus</Bonjour></h1>
+                    <p>
+                        <strong>Développeur en formation sur Paris</strong><br/>
+                        Je suis actuellement à la recherche un stage sur Paris & Perpignan.
+                    </p>
+                    <div class="btn_wrapper">
+                        <a href="#contact" class="btn">Contact</a>
+                    </div>
+                </header>
+            </section>
+
+
+            <section class="about_me elem" id="about">
+                <header>
+                    <h2 class="elem_title">A propos</h2>
+                </header>
+                    <p class="description">
+                        Je suis étudiant en informatique à l'école Epitech sur Paris, promotion 2026.<br/><br/>
+                        J'ai débuté dans le monde du développement par l'apprentissage des langages C et Python durant ma première année d'école. 
+                        Pendant cette année j'ai également pu avoir des premières expériences sur plusieures techno comme Golang, Docker.
+                        <br/>
+                        De plus j'ai pu continuer à me former de mon côté depuis la fin de l'année scolaire pour apprendre de nouvelles choses comme l'HTML CSS JavaScript ainsi que m'améliorer sur Python notamment
+                        <br/><br/>
+                        Ce Portfolio aura donc pour but de présenter mes différents projets, aussi bien personnel que scolaire.
+                    </p>
+                    <div class="btn_wrapper">
+                        <a href="#" class="btn" target="_blank">Voir CV</a>
+                    </div>
+            </section>
+
+            <section class="projects elem" id="projets">
+                <head>
+                    <h2 class="elem_title">Projets</h2>
+                </head>
+                <div class="projects_li">
+                    <div class="dante proj">
+                        <img src="images/maze.jpg" alt="image d'un labyrinthe">
+                        <h3 class="project_name">Dante's Start</h3>
+                        <p class="project_description">
+                            Programme de génération et résolution de labyrinthes réalisé en duo.
+                        </p>
+                        <div class="tag_wrapper">
+                            <span class="tag p_ecole_tag">Projet d'école</span> <span class="tag c_tag">C</span> <span class="tag algo_tag">Algorithme</span>
+                        </div>
+                        <div class="btn_wrapper">
+                            <a href="https://github.com/ChoKssa/DANTE" class="btn" target="_blank">En savoir Plus</a>
+                        </div>
+                    </div>
+                    <div class="todo_list proj">
+                        <img src="images/todo_list.png" alt="image d'un terminal">
+                        <h3 class="project_name">TodoList</h3>
+                        <p class="project_description">
+                            Todolist dans le terminal qui prend en compte les input utilisateur, permet de modifier les status des éléments, les créer et les supprimer tout en sauvegardant dans un .JSON.
+                        </p>
+                        <div class="tag_wrapper">
+                            <span class="tag p_perso_tag">Projet personnel</span> <span class="tag python_tag">Python</span> <span class="tag input_tag">Gestion d'Input</span><span class="tag data_tag">Gestion de Données</span>
+                        </div>
+                        <div class="btn_wrapper">
+                            <a href="https://github.com/hgroschaus/Todo_list" class="btn" target="_blank">En savoir Plus</a>
+                        </div>
+                    </div>
+                    <div class="scraper proj">
+                        <img src="images/library.jpg" alt="image d'une bibliothèque">
+                        <h3 class="project_name">Scraper</h3>
+                        <p class="project_description">
+                            Scraper Python réalisé pour récupérer les citations, tags et noms des auteurs d'un site vitrine
+                        </p>
+                        <div class="tag_wrapper">
+                            <span class="tag p_perso_tag">Projet personnel</span> <span class="tag python_tag">Python</span> <span class="tag bs_tag">BeautifulSoup</span>
+                        </div>
+                        <div class="btn_wrapper">
+                            <a href="https://github.com/hgroschaus/beautifulsoup4_first_scraper" class="btn" target="_blank">En savoir Plus</a>
+                        </div>
+                    </div>
+                    <div class="genrepo_c last_proj">
+                        <img src="images/main.png" alt="image d'une fonction main en C" >
+                        <h3 class="project_name">Script generator repository C</h3>
+                        <p class="project_description">
+                            Script Shell crée d'une initiative personnelle pour faciliter la création d'un dossier de base en C pour l'école. Ce projet m'a permis de faciliter le début de mes projets et d'en apprendre plus sur les scripts shell
+                        </p>
+                        <div class="tag_wrapper">
+                            <span class="tag p_perso_tag">Projet personnel</span> <span class="tag shell_tag">Shell</span>
+                        </div>
+                        <div class="btn_wrapper">
+                            <a href="https://github.com/hgroschaus/script_basicrepo_c" class="btn" target="_blank">En savoir Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact elem" id="contact">
+                <header>
+                    <h2 class="elem_title">Contact</h2>
+                </header>
+                <div class="contact_btn">
+                    <div class="btn_wrapper">
+                        <a href="https://github.com/hgroschaus" target="_blank" class="btn btn_logo"><p>Github</p><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30">    <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"/></svg></a>
+                    </div>
+                    <div class="btn_wrapper">
+                        <a href="https://www.linkedin.com/in/hugo-groschaus/" class="btn btn_logo"target="_blank"><p>LinkedIn</p> <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64"><path d="M40.227,12C51.145,12,52,12.854,52,23.773v16.453C52,51.145,51.145,52,40.227,52H23.773C12.855,52,12,51.145,12,40.227	V23.773C12,12.854,12.855,12,23.773,12H40.227z M25.029,43V26.728h-5.057V43H25.029z M22.501,24.401	c1.625,0,2.947-1.322,2.947-2.949c0-1.625-1.322-2.947-2.947-2.947c-1.629,0-2.949,1.32-2.949,2.947S20.87,24.401,22.501,24.401z M44,43v-8.925c0-4.382-0.946-7.752-6.067-7.752c-2.46,0-4.109,1.349-4.785,2.628H33.08v-2.223h-4.851V43h5.054v-8.05	c0-2.122,0.405-4.178,3.036-4.178c2.594,0,2.628,2.427,2.628,4.315V43H44z"/></svg></a>
+                    </div>
+                    <div class="btn_wrapper">
+                        <a href="mailto:hgroschaus@gmail.com" target="_blank" class="btn btn_logo"><p>E-Mail</p><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve">
+                       <path d="M413.974,71.026C368.171,25.225,307.274,0,242.5,0S116.829,25.225,71.026,71.026C25.225,116.829,0,177.726,0,242.5
+                           s25.225,125.671,71.026,171.474C116.829,459.775,177.726,485,242.5,485c32.731,0,64.491-6.414,94.397-19.063l-11.688-27.63
+                           C299.022,449.384,271.194,455,242.5,455C125.327,455,30,359.673,30,242.5S125.327,30,242.5,30S455,125.327,455,242.5
+                           c0,51.323-31.534,74.699-60.834,74.699c-29.299,0-60.833-23.375-60.833-74.699c0-50.086-40.747-90.833-90.833-90.833
+                           s-90.833,40.748-90.833,90.833s40.747,90.833,90.833,90.833c29.655,0,56.034-14.286,72.622-36.335
+                           c4.248,8.577,9.594,16.336,16.04,23.113c16.613,17.468,38.988,27.087,63.004,27.087c24.017,0,46.392-9.62,63.005-27.087
+                           C475.377,300.97,485,274.132,485,242.5C485,177.726,459.775,116.829,413.974,71.026z M242.5,303.333
+                           c-33.543,0-60.833-27.29-60.833-60.833s27.29-60.833,60.833-60.833s60.833,27.29,60.833,60.833S276.043,303.333,242.5,303.333z"/>
+                       </svg></a>                
+                    </div>
+                </div>                    
+            </section>
+    </section>
+    <footer>
+        <p id="copyright">&copy Hugo Groschaus, 2022</p>
+    </footer>
+    </body>
+</html>
